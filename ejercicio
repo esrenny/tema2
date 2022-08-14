@@ -1,0 +1,18 @@
+public class ejercicio {
+
+    // Tema 2 open bootcamp
+    //  Para este ejercicio tendréis que crear una función que reciba un precio y
+    //   devuelva el precio con el IVA incluido.
+    public static void main(String[] args) {
+        // el iva es 16%
+
+        double precio=getprecio(200.25);
+
+        System.out.println(precio);
+
+    }
+
+    private static double getprecio(double precio) {
+        return precio*1.16;
+    }
+}
